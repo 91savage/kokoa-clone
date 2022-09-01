@@ -11,29 +11,30 @@
         <style>
             body {
                 height: 1000vh;
-                margin: 20px;
+                margin: 50px;
             }
-            div {
-                width: 300px;
+            span {
+                background-color: yellowgreen;
+                padding: 5px;
+                border-radius: 10px;
+            }
+            p span {
                 color: white;
-                height: 300px;
-                background-color: teal;
             }
-
-            #green {
-                background-color: teal;
-                position: fixed;
-                opacity: 0.2;
-            }
-            #different {
-                background-color: wheat;
+            p + span {
+                text-decoration: underline;
             }
         </style>
         <meta charset="utf8" />
         <meta name="description" content="This is my webSite" />
     </head>
     <body>
-        <div id="green"></div>
-        <div id="different"></div>
+        <div>
+            <p>
+                Align the ruler and the middle of the paper and then cut it straight. Make sure the
+                columns align in the chart. <span>inside</span>
+            </p>
+            <span>hello</span>
+        </div>
     </body>
 </html>
