@@ -9,20 +9,20 @@
         <title>The Sehun Times</title>
         <link href="style.css" rel="stylesheet" />
         <style>
+            :root {
+                --main-color: #19ce60;
+                --default-border: 1px solid var(--main-color);
+            }
             body {
                 height: 1000vh;
                 margin: 50px;
             }
-            span {
-                background-color: yellowgreen;
-                padding: 5px;
-                border-radius: 10px;
+            p {
+                background-color: var(--main-color);
             }
-
-            input[type~='password'] {
-                color: white;
-                font-size: 50px;
-                background-color: yellowgreen;
+            a {
+                color: var(--main-color);
+                border: var(--default-border);
             }
         </style>
         <meta charset="utf8" />
@@ -30,5 +30,8 @@
     </head>
     <body>
         <p>Help people interested in this repository understand your project by adding a README.</p>
+        <div>
+            <a href="#">website</a>
+        </div>
     </body>
 </html>
