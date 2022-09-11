@@ -9,3 +9,10 @@
     color: white;
     font-weight: 600;
 }
+
+.dot {
+    background-color: tomato;
+    width: 2px;
+    height: 2px;
+    border-radius: 4px;
+}
