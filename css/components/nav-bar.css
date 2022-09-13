@@ -18,6 +18,10 @@
     position: relative;
 }
 
+@keyframes notificationAnimation {
+    
+}
+
 .nav__notification {
     position: absolute;
     left: 15px;
